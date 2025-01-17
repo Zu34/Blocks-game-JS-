@@ -1,6 +1,6 @@
 # Tetris Game Refactor Summary
 
-![Theme setting](./Recording%20.mp4)
+![Theme setting](./Screen.gif)
 
 ## Overview
 This document provides a summary of the refactor of a basic Tetris game built with JavaScript, HTML, and the `<canvas>` API. The refactor focuses on improving the naming conventions for variables and functions to enhance clarity, consistency, and readability throughout the codebase.
