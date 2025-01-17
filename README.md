@@ -1,5 +1,5 @@
 # Blocks Game -JS guide
-
+[Live Game](https://zu34.github.io/Blocks-game-JS-/)
 ![Theme setting](./Screen.gif)
 
 ## Overview
