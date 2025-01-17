@@ -1,4 +1,4 @@
-# Tetris Game Refactor Summary
+# Blocks Game -JS guide
 
 ![Theme setting](./Screen.gif)
 
