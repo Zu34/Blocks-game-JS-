@@ -265,7 +265,14 @@ function renderGameGrid() {
 // Handle keyboard input
 document.addEventListener("keydown", function (e) {
     let key = e.key;
+
+    // Prevent scrolling 
+    if (["ArrowDown", "ArrowLeft", "ArrowRight", "ArrowUp"].includes(key)) {
+        e.preventDefault();
+    }
+
     if (isGameOver && key !== "r") return;
+
     if (key === "ArrowDown") movePieceDown();
     else if (key === "ArrowLeft") movePieceLeft();
     else if (key === "ArrowRight") movePieceRight();
